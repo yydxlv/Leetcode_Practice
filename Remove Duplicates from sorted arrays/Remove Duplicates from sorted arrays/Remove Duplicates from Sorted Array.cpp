@@ -4,7 +4,7 @@
 //Do not allocate extra space for another array, you must do this in place with constant memory.
 //For example, Given input array A = [1, 1, 2],
 //Your function should return length = 2, and A is now[1, 2].
-class solution {
+class solution1 {
 	int removeDuplicates(int A[], int n)
 	{
 		if (n == 0)
@@ -22,7 +22,7 @@ class solution {
 //Follow up for ¡±Remove Duplicates¡± : What if duplicates are allowed at most twice ?
 //For example, Given sorted array A = [1, 1, 1, 2, 2, 3],
 //Your function should return length = 5, and A is now[1, 1, 2, 2, 3]
-class solution {
+class solution2 {
 public:
 	int removeDuplicates(int A[], int n) {
 		if (n <= 2) return n;
